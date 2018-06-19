@@ -45,46 +45,40 @@ nav  li {
     text-decoration: none;
     color: #FFFFFF;
 }
-h2 {
+h2.handbal {
+    width:45%;
+    float:left;
     padding:50px 0 20px 60px;
 }
-h4 {
-    padding-bottom: 10px;
-}
-div.pictures {
-    float:left;
-    width:50%;
-    height:400px;
-    padding:100px 80px 100px 30px;
-}
-img {
-    width:30%;
-    padding:0 15px 10px 0;
-}
-
-div.article {
-    float:left;
-    width:53%;
-    padding-left:20px;
-    padding-bottom:100px;
-}
-div.article2 {
-    padding-top: 100px;
+h2.uitslagen {
+    width:45%;
     float:right;
-    width:38%;
-
+    padding:50px 0 20px 0px;
 }
-article.side {
-    width:73%;
+th {
+    width:200px;
+    text-align: left;
+    background-color:orange;
 }
 article {
-display:inline-block;
-width:33%;
-padding-left:20px;
-vertical-align:top;
+    display:inline-block;
+    width:33%;
+    padding-left:20px;
+    vertical-align:top;
+    width:20%;
 }
-div.article2 > article {
-
+div.picture {
+    width: 45%;
+    float:left;
+    padding: 50px 0 50px 30px;
+}
+div.uitslagen {
+    width:45%;
+    float:right;
+    padding: 50px 0 50px 30px;
+}
+div.artikels {
+    clear:both;
 }
 div.footer {
     clear:both;
