@@ -56,10 +56,11 @@ h2.uitslagen {
     padding:50px 0 20px 0px;
 }
 th {
-    width:300px;
+    width:240px;
     text-align: left;
     background-color:orange;
 }
+
 article {
     display:inline-block;
     width:33%;
@@ -77,10 +78,26 @@ div.png {
     float:right;
     padding-right: 150px;
 }
+img.handbal3 {
+    padding: 15px 0 0 13px;
+}
 div.uitslagen {
     width:45%;
     float:right;
     padding: 50px 0 50px 30px;
+}
+table.A {
+    width:49%;
+    float:left;
+}
+table.B {
+    width:49%;
+    padding-right: 10px;
+    float:right;
+}
+td {
+    padding-top: 10px;
+    padding-right:10px;
 }
 div.artikels {
     clear:both;
